@@ -1,6 +1,18 @@
 # Hopper
 
-Hopper is available from both on campus and off campus.  It uses your standard winthrop username and password to login.  If you are off campus you will be required to use two factor authentication (2FA) in order to login. 
+Hopper (`hopper.winthrop.edu`) is available from both on campus and off campus via ssh.  It uses your standard winthrop username and password to login.  If you are off campus you will be required to use two factor authentication (2FA) in order to login. 
+
+## Using SSH
+
+### Windows Users
+
+Windows users can use [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) to connect using the SSH protocol to the host `hopper.winthrop.edu`.
+
+### Mac/Linux Users
+
+Mac and Linux users have a built in ssh client.  Simply open a terminal and type `ssh YOURUSERNAME@hopper.winthrop.edu`.  
+
+**After machines have been reimaged you will have problems connecting.**  I recommend removing the offending entry, the ssh tool should tell you how to do that.  If it does not, or you do not know how to do this, simply delete the file `~/.ssh/known_hosts` and you will again be able to connect to the server.
 
 ## Getting Access
 
@@ -17,7 +29,7 @@ In order to setup 2FA you will have to physically visit any one of the lab machi
 1. Install a Google Authenticator Client available on:
 	* [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US)
 	* [iPhone](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8)
-	* [Google Chrome](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai) - Useful for those without a phone.
+	* [Google Chrome](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai) - ***Useful for those without a phone.***
 2. Sign into a machine while on campus.  You can use any machine in Thurmond 114, Carroll 215, or even a virtual machine in any of the ACC labs.  
 3. Open the terminal and run `google-authenticator`
 4. I recommend you accept all the defaults and indicate `Yes` for any questions asked of you.  
