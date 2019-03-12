@@ -1,11 +1,8 @@
 # ComputingHandbook
 A handbook for Winthrop University computing students.
 
-## Linux Servers
-There are several linux servers available for use.
+## Table of Contents
+[Click here to view the Table of Contents.](CONTENTS.md)
 
-The following support users logging in:
-* [hopper.winthrop.edu](hopper.md)
-
-The following servers provide services to users:
-* deltona.birdnest.org
+## Contributing
+Everyone is welcome to contribute to the guide. File a pull request to do so.
