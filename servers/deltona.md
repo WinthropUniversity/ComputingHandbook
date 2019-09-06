@@ -13,7 +13,7 @@
 Students can create websites using html and/or php which are accessible via the web.  If a students username is `besmera2` then their personal webspace would be `https://deltona.birdnest.org/~acc.besmera2`.  Note the inclusion of the `~` character and `acc.` prefix.  
 
 ### Adding Files
-The files served by deltona are served from a special folder within the users linux profile called `public_html`.  Since this folder does not exist by default you may have to create the folder, e.g. `mkdir ~/public_html` or use your favorite editor/ftp client.  Files can be added from any linux machine or through the `SFTP` protocol on port `22` of the [hopper.winthrop.edu](hopper.md) machine.
+The files served by deltona are served from a special folder within the users linux profile called `public_html`.  Since this folder does not exist by default you may have to create the folder, e.g. `mkdir ~/public_html` or use your favorite editor/ftp client.  Files can be added from any linux machine or through the `SFTP` protocol on port `22` of the [hopper.winthrop.edu](hopper.md) machine.  You can use your winthrop username and password to login.
 
 ### Permissions
 
