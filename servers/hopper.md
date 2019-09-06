@@ -16,7 +16,9 @@ Mac and Linux users have a built in ssh client.  Simply open a terminal and type
 
 ## Getting Access
 
-Access to hopper (and all linux machines) is restricted to students and faculty who need access.  Typically access is granted through enrollment as part of a CSCI, DIFD, or MATH course.  Once you are granted access you will maintain that access until you leave the university. If you believe you should have access but do not please contact [helpdesk@winthrop.edu](mailto://helpdesk@winthrop.edu) to request it.  The request will need be approved.
+Access to hopper (and all linux machines) is restricted to students and faculty who need access.  Typically access is granted through enrollment as part of a CSCI, DIFD, or MATH course. The current list of linux eligible courses is `'CSCI101','CSCI207','CSCI208','CSCI243','CSCI271','CSCI290','CSCI311','CSCI355','CSCI365','CSCI411','CSCI431','CSCI466','CSCI475','CSCI476','DIFD451','MATH370','MATH570'`.  Please contact the chair of the CS department if you feel your course should be added to this list.
+
+Once you are granted access you will maintain that access until you leave the university. If you believe you should have access but do not please contact [helpdesk@winthrop.edu](mailto://helpdesk@winthrop.edu) to request it.  The request will need be approved.
 
 ## Two Factor Authentication (2FA)
 
