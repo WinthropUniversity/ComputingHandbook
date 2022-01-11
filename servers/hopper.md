@@ -2,7 +2,7 @@
 
 Hopper (`hopper.winthrop.edu`) is available from both on campus and off campus via ssh.  It uses your standard winthrop username and password to login.  If you are off campus you will be required to use two factor authentication (2FA) in order to login.
 
-## Using SSH
+## Using SSH (Terminal Access)
 
 ### Windows Users
 
@@ -13,6 +13,17 @@ Windows users can use [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty
 Mac and Linux users have a built in ssh client.  Simply open a terminal and type `ssh YOURUSERNAME@hopper.winthrop.edu`.
 
 **After machines have been reimaged you will have problems connecting.**  I recommend removing the offending entry, the ssh tool should tell you how to do that.  If it does not, or you do not know how to do this, simply delete the file `~/.ssh/known_hosts` and you will again be able to connect to the server.
+
+## Remote Desktop
+
+During Spring 2022 we are evaluating the potential use of remote desktops using NoMachine.  Virtual desktops are a quick way to work on a lab machine from anywhere on campus including classrooms, labs, and study spaces.  Further, you can access the lab machines/virtual desktops from home provided you have configured 2FA.  In order to do this you will need to install the NoMachine Enterprise Client which can be found at the [NoMachine Download Page](https://www.nomachine.com/download-enterprise#NoMachine-Enterprise-Client). Once it is installed setup is fairly easy:
+1) Click `+Add`
+2) Set `Name` to `Hopper`
+3) Set `Host` to `hopper.winthrop.edu`
+4) On the `Protocol` dropdown set the protocol to `SSH` which should automatically change `Port` to `22`
+5) Click `Connect`
+
+Once you are connected you will see all the currently available desktop servers.  Each server can support up to 4 clients so unless you have a specific reason to need a specific server you should locate one with less than 4 clients to start your desktop on.  With the exception of virtual machines, all files are shared amoung all desktop servers.  Thus, which you choose in most cases is largely irrelevant.  
 
 ## Getting Access
 
