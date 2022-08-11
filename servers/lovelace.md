@@ -108,7 +108,7 @@ Thu Aug 11 15:41:44 2022
 
 ## Direct and Interactive Jobs
 
-You can request resources to run a program using the `srun` command.  That program basically says, "*Go run this command across the resources I request*".  It will run these concurrently on all resources.  For example, the `hostname` command in Linux simply prints the name of the nost computer.  If I type `srun --nodes=3 --ntasks-per-node=2 hostname` will run the hostname command in six places, twice per computer across three computers.  The result might be something like this:
+You can request resources to run a program using the `srun` command.  That program basically says, "*Go run this command across the resources I request*".  It will run these concurrently on all resources.  For example, the `hostname` command in Linux simply prints the name of the host computer.  If I type `srun --nodes=3 --ntasks-per-node=2 hostname`, the cluster will run the hostname command in six places, twice per computer across three computers.  The result might be something like this:
 
 ```
 n002
