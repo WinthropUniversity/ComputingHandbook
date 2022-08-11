@@ -144,7 +144,7 @@ module load openmpi
 mpirun primes
 ```
 
-If this script is in a file called `submit.slurm` then you would submit this job by typing `sbatch submit.slurm`.  When the job is done, there will be a new file in the same directory as where you submitted called `slurm-JOBID.out`, where `JOBID` is the numer assigned to your job
+If this script is in a file called `submit.slurm` then you would submit this job by typing `sbatch submit.slurm`.  When the job is done, there will be a new file in the same directory as where you submitted called `slurm-JOBID.out`, where `JOBID` is the number assigned to your job
 
 You can learn more about sbatch by typing `sbatch --help`.  Additionally, we have placed a number of examples (in C, C++, and Python) in the `/thur115/examples` directory on Lovelace.
 
