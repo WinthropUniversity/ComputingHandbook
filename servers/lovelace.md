@@ -37,7 +37,7 @@ If Mac and Linux users prefer a graphical, drag-and-drop program for transfering
 
 Lovelace is a cluster containing *many* computers.  So you may wonder:  Which computer am I on when I login?  You are on what we call the *user* or *login* node (hostname: `lovelace-user`).  You wont want to do any serious computation on that node because you might be sharing that resouce with many other users.  To access the *compute nodes*, you'll need to use the resource manage.  More on that, below.
 
-## So I Can't Access Lovelace from Home
+## So I Can't Access Lovelace from Home?
 
 The Lovelace cluster is not directly accessible from outside the campus network.  Faculty and staff who have access to a *virtual private networking* (VPN) client can use that to connect into the Winthrop network then access Lovelace from home.  Students do not yet have that capability.  However, you *can* connect to Hopper using SSH and Google Authenticator.  From Hopper, you can SSH over to Lovelace.  So remote access is indirectly possible.  If this becomes a challenge, let Paul Wiegand know.
 
