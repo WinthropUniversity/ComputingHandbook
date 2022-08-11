@@ -1,6 +1,8 @@
 # The Lovelace Compute Cluster
 
-Lovelace (`lovelace.winthrop.edu`) -- named after [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace), the first programmer -- is a Linux-baed compute cluster available for students and faculty to explore parallel and distributed programming projects.  It consists of a login node and 45 compute nodes, each with 16 GB of memory and 4 cores.  In total, it offers 180 CPU cores, and 720 GB of memory for distributed tasks.  A wide variety of software pacakges are installed on the cluster, including multiple implementations of the MPI 4 standard, various compilers and languages, and a variety of linear algebra pacakges.  Currently, it is only available from the campus network.
+Lovelace (`lovelace.winthrop.edu`) -- named after [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace), the first programmer -- is a Linux-baed compute cluster available for students and faculty to explore parallel and distributed programming projects.  It consists of a login node and 45 compute nodes, each with 16 GB of memory and 4 cores.  In total, it offers 180 CPU cores, and 720 GB of memory for distributed tasks.  A wide variety of software pacakges are installed on the cluster, including multiple implementations of the MPI 4 standard, various compilers and languages, and a variety of linear algebra pacakges.  Currently, it is only available from the campus network.  
+
+This document provides a basic introduction into how to use Lovelace, as well as some references to where you can learn more information.  There's also a 15-minute video demonstrating using the cluster [here](https://youtu.be/J_MV7aiUaTU).
 
 ## How is Lovelace Different from Hopper and Lab Machines?
 Unlike our other Linux servers, users will not ssh to individual compute nodes in the Lovelace cluster.  Instead, they will use a *resource manager* to request specific resources (cores, memory, computers) for a specific amount of time that are provisioned to them on the fly.  Such requests can be interactive or batch scheduled.  While you have those resources, other users will not have access to them.
@@ -155,7 +157,7 @@ In the old days, using MPI would require that we build a special file called a *
 Sometimes, once we submit a job and change our minds.  To stop a job or remove it from the queue (whether it is pending to run or actually executing), we use `scancel`.  We give scancel the job id, for example:  `scancel 165`.  Don't worry, you can't cancel other people's jobs!
 
 
-## Getting Access
+# Getting Access
 
 Access to Lovelace (and all Linux machines) is restricted to students and faculty who need access.  Typically access is granted through enrollment as part of a CSCI, DIFD, or MATH course. The current list of linux eligible courses is `'CSCI101','CSCI207','CSCI208','CSCI243','CSCI271','CSCI290','CSCI311','CSCI355','CSCI365','CSCI411','CSCI431','CSCI466','CSCI475','CSCI476','CSCI460', 'CSCI440','DIFD451','MATH370','MATH570'`.  Please contact the chair of the CS department if you feel your course should be added to this list.
 
