@@ -97,7 +97,7 @@ normal*      up   infinite     26   idle n[105,111-115,121-125,201-205,211-215,2
 
 "Partition" is just fancy SLURM-speak for *queue*, and we only have one queue (`normal`).  We are told with this output that several of the nodes are offline (`drain`), several are in mixed use -- meaning that some of their resources are being used but not all (`mix`), and some are available for use (`idle`).
 
-You can see what jobs are running or pending  using the `squeue` command.  We can get a bit more information from that command with the `-l` switch ("long form").  For example, the following shows that there are two jobs in the queue.  One is running over every node in the cluster, and the other is waiting to run until resources become available.
+You can see what jobs are running or pending  using the `squeue` command.  We can get a bit more information from that command with the `-l` switch ("long form").  For example, the command `squeue -l` shows that there are two jobs in the queue.  One is running over every node in the cluster, and the other is waiting to run until resources become available.
 
 ```
 Thu Aug 11 15:41:44 2022
@@ -108,7 +108,7 @@ Thu Aug 11 15:41:44 2022
 
 ## Direct and Interactive Jobs
 
-You can request resources to run a program using the `srun` command.  That program basically says, "*Go run this command across the resources I request*".  It will run these concurrently on all resources.  For example, the `hostname` command in Linux simple prints the name of the nost computer.  If I type `srun --nodes=3 --ntasks-per-node=2 hostname` will run the hostname command in six places, twice per computer across three computers.  The result might be something like this:
+You can request resources to run a program using the `srun` command.  That program basically says, "*Go run this command across the resources I request*".  It will run these concurrently on all resources.  For example, the `hostname` command in Linux simply prints the name of the nost computer.  If I type `srun --nodes=3 --ntasks-per-node=2 hostname` will run the hostname command in six places, twice per computer across three computers.  The result might be something like this:
 
 ```
 n002
