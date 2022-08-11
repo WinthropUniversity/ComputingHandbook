@@ -86,7 +86,7 @@ As mentioned above, Lovelace is actually a big cluster of 45 different compute n
 
 ## Job Management
 
-To see what computing resources available, use the command `sinfo`.  For instance, you might see the following:
+To see what computing resources are available, use the command `sinfo`.  For instance, you might see the following:
 
 ```
 PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
