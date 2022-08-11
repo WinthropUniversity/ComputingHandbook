@@ -56,7 +56,7 @@ module avail
 
 You'll see a very long list of confusing looking strings.  For example, one thing you might see is `openblas/0.3.20-gcc-11.2.0-module-i7ai7hu`.  This is the *OpenBLAS library* (a C/Fortran library for doing linear algebra computations) version 0.3.0 that was compiled using the 11.2.0 version of the *GNU Compiler Collection* (gcc).  The module name tells you how that library was built to make it easier to avoid cross-compiler issues.  The strange string at the end is just a 7-character random hash to make sure modules are unique.  If there are multiple libraries available with different hashes, then they probably rely on different underlying libraries.  For example, there are two OpenBLAS libraries, one that depends on OpenMPI and another that depends on MVAPICH2 (these are different implementations of MPI). 
 
-LMod is smart enough to winnow the list using a string.  So, suppose you only want to see modules with the word "python" in them, you can do the following:
+LMod is smart enough to winnow the list using a string.  So, suppose you only want to see modules with the word "python" in them, then the command `module avail pythong` will give something like the following:
 
 ```
    py-cython/0.29.30-python-3.9.13-gcc-11.2.0-module-zadtqg4
