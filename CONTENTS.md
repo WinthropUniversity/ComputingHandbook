@@ -18,3 +18,4 @@ The following support users logging in:
 
 The following servers provide services to users:
 * [deltona.birdnest.org](servers/deltona.md)
+* [lovelace.winthrop.edu](servers/lovelace.md)
