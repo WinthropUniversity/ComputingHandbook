@@ -16,14 +16,14 @@ Mac and Linux users have a built in ssh client.  Simply open a terminal and type
 
 ## Remote Desktop
 
-During Spring 2022 we are evaluating the potential use of remote desktops using NoMachine.  Virtual desktops are a quick way to work on a lab machine from anywhere on campus including classrooms, labs, and study spaces.  Further, you can access the lab machines/virtual desktops from home provided you have configured 2FA.  In order to do this you will need to install the NoMachine Enterprise Client which can be found at the [NoMachine Download Page](https://www.nomachine.com/download-enterprise#NoMachine-Enterprise-Client). Once it is installed setup is fairly easy:
+During the Fall 2022-Spring 2023 school year, remote desktops to the linux lab/machines are available.  Virtual desktops are a quick way to work on a lab machine from anywhere on campus including classrooms, labs, and study spaces.  Further, you can access the lab machines/virtual desktops from home provided you have configured 2FA.  In order to do this you will need to install the NoMachine Enterprise Client which can be found at the [NoMachine Download Page](https://www.nomachine.com/download-enterprise#NoMachine-Enterprise-Client). Once it is installed setup is fairly easy:
 1) Click `+Add`
 2) Set `Name` to `Hopper`
 3) Set `Host` to `hopper.winthrop.edu`
 4) On the `Protocol` dropdown set the protocol to `SSH` which should automatically change `Port` to `22`
 5) Click `Connect`
 
-Once you are connected you will see all the currently available desktop servers.  Each server can support up to 4 clients so unless you have a specific reason to need a specific server you should locate one with less than 4 clients to start your desktop on.  With the exception of virtual machines, all files are shared amoung all desktop servers.  Thus, which you choose in most cases is largely irrelevant.  
+Once you are connected you will see all the currently available desktop servers.  Each server can support up to 4 clients so unless you have a specific reason to need a specific server you should locate one with less than 4 clients to start your desktop on.  With the exception of virtual machines (which should be created using virtualbox), all files are shared amoung all desktops.  Thus, which you choose in most cases is irrelevant.  Two machines: `thur114-hp1` and `thur114-hp2` notably have 128GB of RAM, a 10C i9 processor, and an Nvidia GeForce RTX 3090.  
 
 ## Getting Access
 
