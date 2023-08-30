@@ -16,7 +16,7 @@ Mac and Linux users have a built in ssh client.  Simply open a terminal and type
 
 ## Remote Desktop
 
-During the Fall 2022-Spring 2023 school year, remote desktops to the linux lab/machines are available.  Virtual desktops are a quick way to work on a lab machine from anywhere on campus including classrooms, labs, and study spaces.  Further, you can access the lab machines/virtual desktops from home provided you have configured 2FA.  In order to do this you will need to install the NoMachine Enterprise Client which can be found at the [NoMachine Download Page](https://www.nomachine.com/download-enterprise#NoMachine-Enterprise-Client). Once it is installed setup is fairly easy:
+Remote desktops to the linux lab/machines are available.  Virtual desktops are a quick way to work on a lab machine from anywhere on campus including classrooms, labs, and study spaces.  Further, you can access the lab machines/virtual desktops from home provided you have configured 2FA.  In order to do this you will need to install the NoMachine Enterprise Client which can be found at the [NoMachine Download Page](https://www.nomachine.com/download-enterprise#NoMachine-Enterprise-Client). Once it is installed setup is fairly easy:
 1) Click `+Add`
 2) Set `Name` to `Hopper`
 3) Set `Host` to `hopper.winthrop.edu`
