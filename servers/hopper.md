@@ -12,8 +12,6 @@ Windows users can use [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty
 
 Mac and Linux users have a built in ssh client.  Simply open a terminal and type `ssh YOURUSERNAME@hopper.winthrop.edu`.
 
-**After machines have been reimaged you will have problems connecting.**  I recommend removing the offending entry, the ssh tool should tell you how to do that.  If it does not, or you do not know how to do this, simply delete the file `~/.ssh/known_hosts` and you will again be able to connect to the server.
-
 ## Remote Desktop
 
 Remote desktops to the linux lab/machines are available.  Virtual desktops are a quick way to work on a lab machine from anywhere on campus including classrooms, labs, and study spaces.  Further, you can access the lab machines/virtual desktops from home provided you have configured 2FA.  In order to do this you will need to install the NoMachine Enterprise Client which can be found at the [NoMachine Download Page](https://download.nomachine.com/enterprise/?product=enterprise-client). Once it is installed setup is fairly easy:
