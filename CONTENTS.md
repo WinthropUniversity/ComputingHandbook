@@ -1,8 +1,5 @@
 # Handbook Table of Contents
 
-## Class Survival Guides
-* (Work in progress)
-
 ## Labs
 * [Carrol 215](labs/carr215.md)
 * [Thurmond 114](labs/thur114.md)
